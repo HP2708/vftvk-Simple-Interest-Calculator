@@ -1,4 +1,21 @@
-body {background-color:white;}
-h1{color:gray;}
+body {
+background-color:blue;
+}
+h1 {
+	background-color:green;
+	font-size:52;
+}
+div {
+	background-color:yellow;
+	font-size:32;
+	font-family:sans-serif;
+}
+p {
+	background-color: white;
+	color:black;
+}
+button {
+	font-size: 30;
+}
 
 
