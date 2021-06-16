@@ -4,13 +4,17 @@
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <center>
         <h1>Simple Interest Calculator</h1>
-
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
-        Interest : <span id="result"></span><br>
-
-        <button onclick="compute()">Compute</button>
+        <p align ="left"> 
+ <label for="principal"> Amount <input type="number"  id="principal"><br><br> </label>
+ <label for="rate">Interest Rate</label>
+ <input type="range" id="rate" name="rate" min="0" max="20" value="0" oninput="rate_disp.value = rate.value">
+ <output  id="rate_disp"></output>%<br><br>
+ <label for="years">No.of Years</label><input type="number" min="1" max="100" value="1"><br><br>
+ <button onclick="compute()">Compute Interest</button>
+ <footer>&#169 Everyone Can Get Rich</footer>
+ </p>
+        <center>
     </body>
 </html>
