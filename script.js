@@ -1,10 +1,9 @@
-function compute()
-{
-    var p,n,r,si;
-    p = document.getElementById("principal").value;
-    n = document.getElementById("years").value;
-    r = document.getElementById("rate").value;
-    si = (p * t * r) / 100;
-    var t=2021+n;
-    document.write("If you deposit "+p+",at an interest of "+r+"%.You will recieve an amount of "+si+",in the year"+t);    
-}
+ function calculate()
+            {
+                p = document.getElementById("p").value;
+                n = document.getElementById("n").value;
+                r = document.getElementById("r").value;
+                result = document.getElementById("result");
+                
+                result.innerHTML = "The interest is " + (p*n*r/100);
+            }
